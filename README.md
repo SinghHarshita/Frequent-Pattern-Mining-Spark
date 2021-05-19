@@ -15,6 +15,6 @@ In the second pass, we count the candidate pairs. An pair {i, j} I is counted if
     * {i, j} is hashed in a frequent bucket in both hashtables.
 3. In that way, we reduce the number of counters we have to count, so we dramatically reduce the memory used in our program.
 
-#### Implementation Using Apache Spark
+### Implementation Using Apache Spark
 1. For preprocessing Spark dataframe is used.
 2. In implementation of the PCY algorithm, Spark RDD is used.
